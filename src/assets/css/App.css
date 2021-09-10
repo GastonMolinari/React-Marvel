@@ -1,3 +1,4 @@
+/* header */
 .div-header{
   background-color: #F20000;
   display: flex;
@@ -34,4 +35,39 @@ text-decoration: none;
 color: white;
 margin-top: 8px;
 margin-bottom: 8px;
+}
+
+/* footer */
+
+.footer-titulos{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 20px;
+   padding-bottom: 30px;
+}
+.footer-titulos h3{
+  color: white;
+}
+
+.footer-sub{
+  display: flex;
+  background-color: red;
+  border: 3px solid white;
+    outline: 2px solid black;
+    justify-content: space-around;
+
+}
+
+.footer-sub h4{
+  color: white;
+}
+
+.footer-coopy{
+  display: flex;
+  justify-content: center;
+}
+.footer-icon{
+  margin-top: 21px;
+  margin-right: 10px;
 }
