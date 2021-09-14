@@ -1,12 +1,12 @@
+import { Route } from 'react-router-dom';
 import '../assets/css/App.css';
-import Footer from './Footer';
-import Header from './Header';
+import Menu from './Menu';
+
 
 function App() {
   return (
     <>
-    <Header/>
-    <Footer/>
+    <Route path='/' exact={true} component={Menu}/>
     </>
   );
 }
