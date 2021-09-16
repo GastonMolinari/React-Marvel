@@ -1,6 +1,7 @@
 import logo from '../assets/images/Marvel-Gasty-Logo.jpg'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -18,10 +19,10 @@ function Header() {
           </div>
           </div>
           <div className='header-lista'>
-            <a href='#'>Inicio</a>
-            <a href='#'>Personajes</a>
-            <a href='#'>Peliculas</a>
-            <a href='#'>Contactos</a>
+          <Link to="/">Inicio</Link>
+            <Link to="/personajes">Personajes</Link>
+            <Link to="/peliculas">Peliculas</Link>
+            <Link to="/contacto">Contactos</Link>
           </div>
       </header>
     );

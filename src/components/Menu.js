@@ -8,7 +8,7 @@ function Menu(){
         <>
         <Header/>
         <body className="body">
-        <MenuComponente/>
+        <Route path='/' exact={true} component={MenuComponente}/>
         </body>
         <Footer/>
         </>

@@ -7,8 +7,11 @@ function MenuComponente() {
     return(
         <>
         <div className='menu-bienvenido'>
-            <h1>¡Bienvenido Avenger!</h1>
-            <h2>Esta es una pagina creada con react con el fin de practicar y conocer nuevas herramientas espero que te guste</h2>
+            <div className='menu-h1'>
+            <h1 >¡Bienvenido Avenger!</h1></div>
+            <div className='menu-h2'>
+            <h2 >Esta es una pagina creada con react con el fin de practicar y conocer nuevas herramientas espero que te guste</h2>
+            </div>
         </div>
         
         <div className="menu-articulos"> 
