@@ -3,13 +3,15 @@ import {Link, Route, Switch} from 'react-router-dom'
 import Header from "./Header";
 import Footer from "./Footer";
 import MenuComponente from "./MenuComponente";
+import Personajes from "./Personajes";
 function Menu(){
     return(
         <>
         <Header/>
-        <body className="body">
+        <div className="body">
         <Route path='/' exact={true} component={MenuComponente}/>
-        </body>
+        <Route path='/personajes' exact={true} component={Personajes}/>
+        </div>
         <Footer/>
         </>
     )

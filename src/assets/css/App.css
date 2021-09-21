@@ -153,6 +153,15 @@ color: white;
   margin-bottom: 70px;
 } */
 
+/* Personajes */
+.personajes-div{
+  width: 100%;
+}
+.card-img-top{
+  width: 80%;
+  height: 80%;
+}
+
 /* footer */
 
 .footer-titulos{
