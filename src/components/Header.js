@@ -9,7 +9,7 @@ function Header() {
       <header className='header'>
         <div className='div-header'>
           <div className='header-logo'>
-            <img src={logo} alt='logo' className='header-logo'/>
+           <a href="/"> <img src={logo} alt='logo' className='header-logo'/></a>
           </div>
           <div className='header-busqueda'>
             <div className='header-busqueda2'>
