@@ -21,7 +21,7 @@ function Header() {
           <div className='header-lista'>
           <Link to="/">Inicio</Link>
             <Link to="/personajes">Personajes</Link>
-            <Link to="/peliculas">Peliculas</Link>
+            <Link to="/comics">Comics</Link>
             <Link to="/contacto">Contactos</Link>
           </div>
       </header>

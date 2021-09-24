@@ -154,12 +154,47 @@ color: white;
 } */
 
 /* Personajes */
+.card{
+  align-items: center;
+  background-color: whitesmoke;  
+  border: black solid 5px;
+  padding-bottom: 3px;
+  margin-bottom: 30px;
+}
+.card-comic{
+  align-items: center;
+  background-color: whitesmoke;  
+  border: black solid 5px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
 .personajes-div{
   width: 100%;
 }
 .card-img-top{
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 90%;
+  border-bottom: black solid 2px;
+
+}
+.card-text{
+  margin: 0%
+}
+.personajes-link1{
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5px;
+  background-color: #000000;
+  color: whitesmoke;
+  text-align: center;
+  max-width: 20px;
+  border: whitesmoke solid 2px;
+  margin-left: 10px;
+
+}
+
+.card-text-comic{
+  margin: 0%;
 }
 
 /* footer */
